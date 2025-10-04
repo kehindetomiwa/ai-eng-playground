@@ -1,2 +1,4 @@
 .idea/
 .env
+.gradio
+.DS_Store

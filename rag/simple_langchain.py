@@ -59,13 +59,13 @@ if os.path.exists(db_name):
 vectorstore = Chroma.from_documents(
     documents=chunks, embedding=embeddings, persist_directory=db_name
 )
-print(f"Vectorstore created with {vectorstore._collection.count()} documents")
+# print(f"Vectorstore created with {vectorstore._collection.count()} documents")
 
 
 collection = vectorstore._collection
 sample_embedding = collection.get(limit=1, include=["embeddings"])["embeddings"][0]
 dimensions = len(sample_embedding)
-print(f"The vectors have {dimensions:,} dimensions")
+# print(f"The vectors have {dimensions:,} dimensions")
 
 
 # Prework
@@ -85,30 +85,31 @@ colors = [
 tsne = TSNE(n_components=2, random_state=42)
 reduced_vectors = tsne.fit_transform(vectors)
 
-# Create the 2D scatter plot
-fig = go.Figure(
-    data=[
-        go.Scatter(
-            x=reduced_vectors[:, 0],
-            y=reduced_vectors[:, 1],
-            mode="markers",
-            marker=dict(size=5, color=colors, opacity=0.8),
-            text=[
-                f"Type: {t}<br>Text: {d[:100]}..." for t, d in zip(doc_types, documents)
-            ],
-            hoverinfo="text",
-        )
-    ]
-)
-
-fig.update_layout(
-    title="2D Chroma Vector Store Visualization",
-    scene=dict(xaxis_title="x", yaxis_title="y"),
-    width=800,
-    height=600,
-    margin=dict(r=20, b=10, l=10, t=40),
-)
-fig.show()
+# # Create the 2D scatter plot
+# fig = go.Figure(
+#     data=[
+#         go.Scatter(
+#             x=reduced_vectors[:, 0],
+#             y=reduced_vectors[:, 1],
+#             mode="markers",
+#             marker=dict(size=5, color=colors, opacity=0.8),
+#             text=[
+#                 f"Type: {t}<br>Text: {d[:100]}..." for t, d in zip(doc_types, documents)
+#             ],
+#             hoverinfo="text",
+#         )
+#     ]
+# )
+#
+# fig.update_layout(
+#     title="2D Chroma Vector Store Visualization",
+#     scene=dict(xaxis_title="x", yaxis_title="y"),
+#     width=800,
+#     height=600,
+#     margin=dict(r=20, b=10, l=10, t=40),
+# )
+# fig.write_image("chroma_vector_store_2d.png")
+# # fig.show()
 
 
 # Let's try 3D!
@@ -141,4 +142,5 @@ fig.update_layout(
     margin=dict(r=20, b=10, l=10, t=40),
 )
 
-fig.show()
+# fig.show()
+fig.write_html("chroma_vector_store_3d.html")
