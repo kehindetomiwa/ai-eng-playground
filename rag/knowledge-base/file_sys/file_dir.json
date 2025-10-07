@@ -1,0 +1,290 @@
+{
+  "document": {
+    "music": {
+      "albums": [
+        {
+          "name": "Midnight_Routes",
+          "files": [
+            {
+              "filename": "01_Midnight_Intro.mp3",
+              "extension": ".mp3",
+              "type": "audio/mpeg",
+              "size_kb": 4521
+            },
+            {
+              "filename": "02_Riverbend_Drive.mp3",
+              "extension": ".mp3",
+              "type": "audio/mpeg",
+              "size_kb": 7890
+            },
+            {
+              "filename": "03_City_of_Lamps.mp3",
+              "extension": ".mp3",
+              "type": "audio/mpeg",
+              "size_kb": 6212
+            }
+          ]
+        },
+        {
+          "name": "Sunlit_Promenade",
+          "files": [
+            {
+              "filename": "01_Sunrise_Pulse.mp3",
+              "extension": ".mp3",
+              "type": "audio/mpeg",
+              "size_kb": 5034
+            },
+            {
+              "filename": "02_Wind_on_Market_St.mp3",
+              "extension": ".mp3",
+              "type": "audio/mpeg",
+              "size_kb": 3487
+            }
+          ]
+        }
+      ],
+      "singles": [
+        {
+          "filename": "lost-notes.mp3",
+          "extension": ".mp3",
+          "type": "audio/mpeg",
+          "size_kb": 4123
+        },
+        {
+          "filename": "echoes-of-9th.wav",
+          "extension": ".wav",
+          "type": "audio/wav",
+          "size_kb": 15832
+        }
+      ]
+    },
+    "video": {
+      "movies": [
+        {
+          "filename": "the_last_archipelago.mp4",
+          "extension": ".mp4",
+          "type": "video/mp4",
+          "size_kb": 154321
+        },
+        {
+          "filename": "paper_streets_trailer.mp4",
+          "extension": ".mp4",
+          "type": "video/mp4",
+          "size_kb": 9821
+        }
+      ],
+      "clips": [
+        {
+          "filename": "interview_mira_2024.mp4",
+          "extension": ".mp4",
+          "type": "video/mp4",
+          "size_kb": 23456
+        },
+        {
+          "filename": "timelapse_downtown.mp4",
+          "extension": ".mp4",
+          "type": "video/mp4",
+          "size_kb": 11245
+        }
+      ]
+    },
+    "photos": {
+      "vacation_2023": [
+        {
+          "filename": "IMG_20230715_001.jpg",
+          "extension": ".jpg",
+          "type": "image/jpeg",
+          "size_kb": 2543
+        },
+        {
+          "filename": "IMG_20230715_002.jpg",
+          "extension": ".jpg",
+          "type": "image/jpeg",
+          "size_kb": 1987
+        },
+        {
+          "filename": "beach_panorama.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 342
+        }
+      ],
+      "portraits": [
+        {
+          "filename": "anna_study_session.png",
+          "extension": ".png",
+          "type": "image/png",
+          "size_kb": 1764
+        },
+        {
+          "filename": "studio_light_test.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 3
+        }
+      ]
+    },
+    "code": {
+      "python": [
+        {
+          "filename": "data_cleaner.py",
+          "extension": ".py",
+          "type": "text/x-python",
+          "size_kb": 12
+        },
+        {
+          "filename": "api_client.py",
+          "extension": ".py",
+          "type": "text/x-python",
+          "size_kb": 28
+        },
+        {
+          "filename": "notes_installation.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 6
+        }
+      ],
+      "c_projects": [
+        {
+          "filename": "matrix_ops.c",
+          "extension": ".c",
+          "type": "text/x-csrc",
+          "size_kb": 9
+        },
+        {
+          "filename": "legacy_parser.c",
+          "extension": ".c",
+          "type": "text/x-csrc",
+          "size_kb": 14
+        },
+        {
+          "filename": "README_codebase.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 48
+        }
+      ],
+      "scripts": [
+        {
+          "filename": "deploy.sh",
+          "extension": ".sh",
+          "type": "application/x-sh",
+          "size_kb": 2
+        },
+        {
+          "filename": "build_instructions.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 4
+        }
+      ]
+    },
+    "books": {
+      "fiction": [
+        {
+          "filename": "the-walled-garden.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 912
+        },
+        {
+          "filename": "stories_from_the_ash.epub",
+          "extension": ".epub",
+          "type": "application/epub+zip",
+          "size_kb": 624
+        }
+      ],
+      "nonfiction": [
+        {
+          "filename": "urban_ecology_overview.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 2048
+        },
+        {
+          "filename": "notes_historical_timelines.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 11
+        }
+      ]
+    },
+    "texts": {
+      "personal": [
+        {
+          "filename": "journal_2025-10-07.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 7
+        },
+        {
+          "filename": "shopping_list.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 1
+        }
+      ],
+      "reports": [
+        {
+          "filename": "annual_summary_2024.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 412
+        },
+        {
+          "filename": "project_outline.txt",
+          "extension": ".txt",
+          "type": "text/plain",
+          "size_kb": 5
+        }
+      ]
+    },
+    "archives": {
+      "backups": [
+        {
+          "filename": "workspace_backup_2025_09_30.zip",
+          "extension": ".zip",
+          "type": "application/zip",
+          "size_kb": 45212
+        },
+        {
+          "filename": "photos_archive_2019.tar.gz",
+          "extension": ".tar.gz",
+          "type": "application/gzip",
+          "size_kb": 124512
+        }
+      ]
+    },
+    "mixed_media": {
+      "podcasts": [
+        {
+          "filename": "coffee_with_ellie_ep12.mp3",
+          "extension": ".mp3",
+          "type": "audio/mpeg",
+          "size_kb": 38241
+        },
+        {
+          "filename": "deepdive_ai_ep03.mp3",
+          "extension": ".mp3",
+          "type": "audio/mpeg",
+          "size_kb": 49212
+        }
+      ],
+      "presentations": [
+        {
+          "filename": "quarterly_review.mp4",
+          "extension": ".mp4",
+          "type": "video/mp4",
+          "size_kb": 22134
+        },
+        {
+          "filename": "sales_pitch.pdf",
+          "extension": ".pdf",
+          "type": "application/pdf",
+          "size_kb": 842
+        }
+      ]
+    }
+  }
+}
