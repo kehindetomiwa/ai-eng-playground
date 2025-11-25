@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer
 import joblib
 from .agent import Agent
 from config_setting import ConfigSetting
+
 config = ConfigSetting()
 
 random_forest_model = config.random_forest_model_path

@@ -7,6 +7,7 @@ from .special_pricer import SpecialistAgent
 from .frontier_pricer_agent import FrontierAgent
 from .random_forest_pricer import RandomForestAgent
 from config_setting import ConfigSetting
+
 config = ConfigSetting()
 
 ensemble_model_path = config.linear_regression_model_path

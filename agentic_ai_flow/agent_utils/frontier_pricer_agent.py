@@ -12,6 +12,7 @@ import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))  # adds project root
 from items import Item
 from config_setting import ConfigSetting
+
 config = ConfigSetting()
 
 
